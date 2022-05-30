@@ -1,0 +1,817 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.rectangle{
+position:absolute;
+width: 464.42px;
+height: 540.11px;
+left: 88px;
+top: 90px;
+z-index: 2;
+background: #5055BE;
+border-radius: 65px 74px 83px 65px;
+}
+
+
+
+ /* new */
+.nav{
+position: absolute;
+width: 1924px;
+height: 124px;
+left: 0px;
+top: 0px;
+
+background: #46344E;
+}
+.signin{
+position: absolute;
+left: 84.15%;
+right: 4.31%;
+top: 1.11%;
+bottom: 5.98%;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.signinText{
+  position: absolute;
+left: 35.41%;
+right: 7.9%;
+top: 40.89%;
+bottom: 96.85%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #46344E;
+}
+.indicate{
+  position: absolute;
+  width: 350px;
+  height: 43px;
+  left: 40px;
+  top: 159px;
+  
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.frame{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1758px;
+height: 346px;
+left: 68px;
+top: 237px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.cover{
+  position: absolute;
+width: 98px;
+height: 100px;
+left: 691px;
+top: 130px;
+}
+.addCover{
+  position: absolute;
+width: 400px;
+height: 43px;
+left: 808px;
+top: 155px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+
+color: #777777;
+}
+.ProfileOut{
+  box-sizing: border-box;
+
+position: absolute;
+width: 328px;
+height: 340px;
+left: 168px;
+top: 437px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.profile{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 282px;
+top: 557px;
+}
+.addProfile{
+  position: absolute;
+width: 400px;
+height: 43px;
+left: 168px;
+top: 797px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+
+color: #777777;
+}
+.firstName{
+  box-sizing: border-box;
+
+position: absolute;
+width: 696px;
+height: 99px;
+left: 44px;
+top: 953px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.lastName{
+  box-sizing: border-box;
+
+position: absolute;
+width: 696px;
+height: 99px;
+left: 903px;
+top: 953px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+
+}
+.email{
+  box-sizing: border-box;
+
+position: absolute;
+width: 696px;
+height: 99px;
+left: 44px;
+top: 1149px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.phone{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 696px;
+  height: 99px;
+  left: 903px;
+  top: 1144px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.location{
+  box-sizing: border-box;
+
+position: absolute;
+width: 696px;
+height: 99px;
+left: 44px;
+top: 1345px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.textArea{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1686px;
+height: 533px;
+left: 44px;
+top: 1570px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.create{
+  position: absolute;
+width: 431px;
+height: 105px;
+left: 672px;
+top: 2235px;
+
+background: #46344E;
+border-radius: 50px;
+}
+.btntext{
+position: absolute;
+
+left: 130px;
+top: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 150%;
+/* identical to box height, or 72px */
+
+
+color: #FFFFFF;
+}
+/* .modalOTP{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1582px;
+height: 1218px;
+left: 186px;
+top: 583px;
+
+background: #46344E;
+border: 1px solid #000000;
+backdrop-filter: blur(4px);
+
+
+border-radius: 50px;
+ } */
+.OTP{
+position: absolute;
+width: 200px;
+top: 160px;
+left: 170px;
+}
+.edu{
+  position: absolute;
+width: 434px;
+height: 115px;
+left: 84px;
+top: 237px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 115px;
+
+color: #46344E;
+
+}
+.publish{
+  position: absolute;
+width: 800px;
+height: 115px;
+left: 84px;
+top: 237px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 115px;
+
+color: #46344E;
+}
+.school{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1617px;
+height: 99px;
+left: 76px;
+top: 482px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+
+}
+.degree{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1617px;
+  height: 99px;
+  left: 79px;
+  top: 711px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+  
+}
+
+.field{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1617px;
+  height: 99px;
+  left: 79px;
+  top: 936px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.labelSchool{
+  position: absolute;
+width: 131px;
+height: 43px;
+left: 84px;
+top: 417px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+
+color: #777777;
+
+}
+.labelDegree{
+  position: absolute;
+  width: 116px;
+  height: 43px;
+  left: 76px;
+  top: 646px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.labelField{
+  position: absolute;
+  width: 215px;
+  height: 43px;
+  left: 76px;
+  top: 860px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+  
+
+}
+.labelStart{
+  position: absolute;
+  width: 155px;
+  height: 43px;
+  left: 87px;
+  top: 1079px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.labelEnd{
+  position: absolute;
+  width: 354px;
+  height: 43px;
+  left: 87px;
+  top: 1349px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.month{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 696px;
+  height: 99px;
+  left: 105px;
+  top: 1184px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.Year{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 696px;
+  height: 99px;
+  left: 997px;
+  top: 1184px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+  
+}
+.Endmonth{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 696px;
+  height: 99px;
+  left: 105px;
+  top: 1419px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.EndYear{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 696px;
+  height: 99px;
+  left: 1005px;
+  top: 1419px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.labelGrade{
+  position: absolute;
+  width: 96px;
+  height: 43px;
+  left: 76px;
+  top: 1595px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.grade{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1617px;
+  height: 99px;
+  left: 76px;
+  top: 1690px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+  
+}
+.labelActivity{
+  position: absolute;
+  width: 362px;
+  height: 43px;
+  left: 68px;
+  top: 1867px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.Activity{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1686px;
+  height: 533px;
+  left: 57px;
+  top: 1998px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.btnEdu{
+  position: absolute;
+width: 431px;
+height: 105px;
+left: 685px;
+top: 2619px;
+
+background: #46344E;
+border-radius: 50px;
+}
+.btnText{
+  position: absolute;
+  /* width: 121px; */
+  /* height: 72px; */
+  left: 145px;
+  top: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 150%;
+/* identical to box height, or 72px */
+
+
+color: #FFFFFF;
+
+}
+.modalEdu{
+  position:static;
+  width: 0px;
+  height: 100px;
+  left: 0px;
+  top: 100px;
+  
+  background: #46344E;
+  border-radius: 30px;
+}
+.btnAdd{
+  position: absolute;
+  width: 442px;
+  height: 143px;
+  left: 472px;
+  top: 1803px;
+  
+  background: #FFFFFF;
+  border-radius: 45px;
+}
+.btnSkip{
+  position: absolute;
+  width: 442px;
+  height: 143px;
+  left: 996px;
+  top: 1803px;
+  
+  background: #FFFFFF;
+  border-radius: 45px;
+}
+.labelsCompany{
+  position: absolute;
+  width: 268px;
+  height: 43px;
+  left: 77px;
+  top: 600px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+  
+}
+.company{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1617px;
+height: 99px;
+left: 86px;
+top: 650px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+}
+.labelRole{
+  position: absolute;
+  width: 289px;
+  height: 43px;
+  left: 86px;
+  top: 900px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+  
+  
+}
+.role{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1686px;
+height: 533px;
+left: 86px;
+top: 1000px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+
+}
+
+.name{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1617px;
+height: 99px;
+left: 76px;
+top: 482px;
+
+background: #FFFFFF;
+border: 1px solid #777777;
+
+}
+.company{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1617px;
+  height: 99px;
+  left: 79px;
+  top: 711px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+  
+}
+
+.calling{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1617px;
+  height: 99px;
+  left: 79px;
+  top: 936px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.labelName{
+  position: absolute;
+width: 500px;
+height: 43px;
+left: 84px;
+top: 417px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+
+color: #777777;
+
+}
+.labelCompany{
+  position: absolute;
+width: 268px;
+height: 43px;
+left: 77px;
+top: 330px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+
+color: #777777;
+
+}
+.labelCalling{
+  position: absolute;
+  width: 500px;
+  height: 43px;
+  left: 76px;
+  top: 860px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+  
+
+}
+.labelOpen{
+  position: absolute;
+  width: 500px;
+  height: 43px;
+  left: 87px;
+  top: 1079px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+.labelClose{
+  position: absolute;
+  width: 500px;
+  height: 43px;
+  left: 87px;
+  top: 1349px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #777777;
+}
+
+.open{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1600px;
+  height: 99px;
+  left: 105px;
+  top: 1184px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.close{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1600px;
+  height: 99px;
+  left: 105px;
+  top: 1419px;
+  
+  background: #FFFFFF;
+  border: 1px solid #777777;
+}
+.addAppli{
+  position: absolute;
+width: 563px;
+height: 105px;
+left: 681px;
+top: 1600px;
+
+background: #0275B1;
+border-radius: 50px;
+}
+.publishBt{
+  position: absolute;
+width: 563px;
+height: 105px;
+left: 681px;
+top: 1800px;
+
+background: #46344E;
+border-radius: 50px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
