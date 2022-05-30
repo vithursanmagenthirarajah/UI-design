@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Modal from 'react-bootstrap/Modal'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 function Publish() {
   
   const [show, setShow] = useState(false);
@@ -14,9 +16,21 @@ function Publish() {
     return (
       <div className="App">
           <div className='page'>
-                    <div className='nav'>
+                    {/* <div className='nav'>
                         <div className='signin'> <h5 className='signinText'>Sign in</h5></div>
-                    </div>
+                    </div> */}
+
+                    <Navbar bg="dark" variant="dark" className='navigation'>
+                        <Container>
+                        <Navbar.Brand href="/">Profile</Navbar.Brand>
+                        <Nav className="me-auto">
+                        <Nav.Link href="/education">Education</Nav.Link>
+                        <Nav.Link href="/experience">Experience</Nav.Link>
+                        <Nav.Link href="/publish">Job Post</Nav.Link>
+                        </Nav>
+                        </Container>
+                    </Navbar>
+                    
                         <h5 className='indicate'>* Indicates required</h5>
                         <br></br>
                         <h1 className='publish'>TIME HIRE THE BEST </h1>

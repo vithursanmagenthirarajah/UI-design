@@ -40,7 +40,7 @@ border-radius: 65px 74px 83px 65px;
  /* new */
 .nav{
 position: absolute;
-width: 1924px;
+width: 350%;
 height: 124px;
 left: 0px;
 top: 0px;
@@ -532,7 +532,7 @@ color: #777777;
 width: 431px;
 height: 105px;
 left: 685px;
-top: 2619px;
+top: 2600px;
 
 background: #46344E;
 border-radius: 50px;
@@ -701,10 +701,10 @@ color: #777777;
 }
 .labelCompany{
   position: absolute;
-width: 268px;
+width: 500px;
 height: 43px;
 left: 77px;
-top: 330px;
+top: 650px;
 
 font-family: 'Lato';
 font-style: normal;
@@ -794,7 +794,7 @@ height: 105px;
 left: 681px;
 top: 1600px;
 
-background: #0275B1;
+background: #46344E;
 border-radius: 50px;
 }
 .publishBt{
@@ -806,6 +806,275 @@ top: 1800px;
 
 background: #46344E;
 border-radius: 50px;
+}
+.navigation{
+  width:100%
+}
+.image{
+  position: absolute;
+width: 1924px;
+height: 822px;
+left: 0px;
+top: 124px;
+
+}
+.empname{
+  position: absolute;
+  width: 226px;
+  height: 77px;
+  left: 80px;
+  top: 1123px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+}
+.fname{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 643px;
+  height: 125px;
+  left: 546px;
+  top: 1099px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.lname{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 643px;
+  height: 125px;
+  left: 1240px;
+  top: 1099px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.bdate{
+  position: absolute;
+  width: 323px;
+  height: 77px;
+  left: 80px;
+  top: 1322px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+  color: #777777;
+}
+.ddate{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 462px;
+  height: 125px;
+  left: 546px;
+  top: 1298px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.dmonth{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 155px;
+  height: 125px;
+  left: 1067px;
+  top: 1298px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.dyear{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 274px;
+  height: 125px;
+  left: 1260px;
+  top: 1298px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.phoneno{
+  position: absolute;
+  width: 453px;
+  height: 77px;
+  left: 80px;
+  top: 1521px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+  color: #777777;
+}
+.phonebox{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 125px;
+  left: 553px;
+  top: 1497px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.emaillabel{
+  position: absolute;
+  width: 418px;
+  height: 77px;
+  left: 80px;
+  top: 1701px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+  color: #777777;
+}
+.eemail{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1218px;
+height: 125px;
+left: 553px;
+top: 1690px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+}
+
+.addressLabel{
+  position: absolute;
+  width: 253px;
+  height: 77px;
+  left: 80px;
+  top: 1900px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+  color: #777777;
+}
+.address1{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1218px;
+height: 125px;
+left: 553px;
+top: 1876px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+}
+.address2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1218px;
+  height: 125px;
+  left: 554px;
+  top: 2075px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.job{
+  position: absolute;
+  width: 573px;
+  height: 77px;
+  left: 80px;
+  top: 2350px;
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  
+  
+  color: #777777;
+}
+.jobBox{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1218px;
+  height: 529px;
+  left: 520px;
+  top: 2420px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  
+}
+.save{
+  position: absolute;
+  width: 563px;
+  height: 105px;
+  left: 790px;
+  top: 3200px;
+  
+  background: #46344E;
+  border-radius: 50px;
+}
+
+.savetext{
+  position: absolute;
+  /* width: 165px; */
+  /* height: 94px; */
+  left: 180px;
+  top: 5px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 150%;
+  /* or 96px */
+  
+  
+  color: #FFFFFF;
 }
 @keyframes App-logo-spin {
   from {

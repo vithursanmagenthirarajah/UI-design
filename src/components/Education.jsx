@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Modal from 'react-bootstrap/Modal'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 function Education() {
   
   const [show, setShow] = useState(true);
@@ -14,9 +16,20 @@ function Education() {
     return (
       <div className="App">
           <div className='page'>
-                    <div className='nav'>
+                    {/* <div className='nav'>
                         <div className='signin'> <h5 className='signinText'>Sign in</h5></div>
-                    </div>
+                    </div> */}
+                     <Navbar bg="dark" variant="dark" className='navigation'>
+                        <Container>
+                        <Navbar.Brand href="/">Profile</Navbar.Brand>
+                        <Nav className="me-auto">
+                        <Nav.Link href="/education">Education</Nav.Link>
+                        <Nav.Link href="/experience">Experience</Nav.Link>
+                        <Nav.Link href="/publish">Job Post</Nav.Link>
+                        </Nav>
+                        </Container>
+                    </Navbar>
+                    
                         <h5 className='indicate'>* Indicates required</h5>
                         <br></br>
                         <h1 className='edu'>Education</h1>
@@ -74,11 +87,11 @@ function Education() {
         <button type='submit' className='btnEdu' onClick={handleShow}><div className='btnText'>Save</div></button>
         </form>
 
-        <Modal className='modalEdu' show={show} onHide={handleClose}>
+        {/* <Modal className='modalEdu' show={show} onHide={handleClose}>
         <Modal.Body>
           <button  className='btnAdd' onClick={handleClose}><div className=''>Add</div></button>
           <button  className='btnSkip' onClick={handleClose}><div className=''>Skip</div></button>
-        </Modal.Body>                                                                                                                                      
+        </Modal.Body>                                                                                                                                       */}
         {/* <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Re-Sent
@@ -87,7 +100,7 @@ function Education() {
           Confirm
           </Button>
         </Modal.Footer> */}
-      </Modal>
+      {/* </Modal> */}
       </div>
     );
 }
